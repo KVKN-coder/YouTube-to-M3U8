@@ -35,14 +35,14 @@ jobs:
         run: |
           git pull
           git config --global user.email "nbknri@gmail.com"
-          git config --global user.name "nbknri"
+          git config --global user.name "KVKN"
       
       
       - name: Main
         run: |
           pwd
-          chmod +x channel-name.sh
-          ./channel-name.sh
+          chmod +x ETV-Telangana.sh
+          ./ETV-Telangana.sh
         
       - name: git add
         run: |
